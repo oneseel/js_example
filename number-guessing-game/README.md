@@ -22,13 +22,3 @@
 - **JavaScript**: 게임 로직 구현.
 
 ---
-
-## 📂 프로젝트 구조
-
-number-guessing-game/
-├── index.html # 메인 HTML 파일
-├── style.css # 스타일링 파일
-├── game.js # 게임 로직 JS 파일
-└── README.md # 프로젝트 설명 문서
-
----

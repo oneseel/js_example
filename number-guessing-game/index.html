@@ -3,7 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>number-guessing-game</title>
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <button id="start-btn">게임 시작</button>
+      <div id="game-form" style="display: none">
+        <p>1부터 100까지의 숫자 중 하나를 입력하세요.</p>
+        <input
+          id="number-input"
+          type="number"
+          placeholder="숫자를 입력하세요"
+        />
+        <button id="input-btn">입력</button>
+      </div>
+      <p id="msg"></p>
+    </div>
+    <script src="game.js"></script>
+  </body>
 </html>
